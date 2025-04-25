@@ -22,8 +22,6 @@ This repository implements a RAG pipeline to:
 - **Hugging Face Spaces Deployment**: Public URL with SSL, automatic rebuilds on GitHub push, and environment variable / secret management :contentReference[oaicite:9]{index=9}.
 
 ## Architecture
-
-```mermaid
 flowchart TD
   A[Upload PDF via Streamlit] --> B[Text Extraction & Chunking]
   B --> C[Embedding Generation (SentenceTransformers)]
