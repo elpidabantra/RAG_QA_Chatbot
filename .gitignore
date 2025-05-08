@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+*.env
+
+# Streamlit specific
+.streamlit/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# PDF temporary files (προληπτικά αν δημιουργούνται προσωρινά)
+*.pdf~
+
+# VSCode settings (αν χρησιμοποιείς VSCode)
+.vscode/
+
+# Logs
+*.log
+
+# Hugging Face cache (αν τυχόν χρησιμοποιείς cache τοπικά για μοντέλα ή embeddings)
+~/.cache/huggingface/
